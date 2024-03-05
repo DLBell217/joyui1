@@ -17,7 +17,7 @@ export default function BasicButtons() {
     </Box>
   );
 }
-<box>
+<Box>
 <FormControl
  id="Id"
   required
@@ -40,4 +40,4 @@ export default function BasicButtons() {
     Help!
   </FormHelperText>
 </FormControl>
-  </box>
+  </Box>
