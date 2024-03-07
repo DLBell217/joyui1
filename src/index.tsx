@@ -3,6 +3,7 @@ import * as ReactDOM from 'react-dom/client';
 import { StyledEngineProvider, CssVarsProvider } from '@mui/joy/styles';
 import Demo from './Demo';
 import Demo2 from './Demo2';
+import StepsSlider from './component';
 
 ReactDOM.createRoot(document.querySelector("#root")!).render(
   <React.StrictMode>
@@ -10,6 +11,7 @@ ReactDOM.createRoot(document.querySelector("#root")!).render(
       <CssVarsProvider>
         <Demo />
         <Demo2 />
+        <StepSlider />
       </CssVarsProvider>
     </StyledEngineProvider>
   </React.StrictMode>
