@@ -8,9 +8,8 @@ export default function BasicButtons() {
       <Button>Wow</Button>
       <Button disabled>No way!</Button>
       <Button loading>Thats cray!</Button>
-    </Box>
 
-<Box>
+      <Box>
   <FormControl
     id="Id"
     required
@@ -34,5 +33,8 @@ export default function BasicButtons() {
     </FormHelperText>
   </FormControl>
 </Box>
+    </Box>
+
+
   );
 }
