@@ -34,7 +34,5 @@ export default function BasicButtons() {
     </FormHelperText>
   </FormControl>
 </Box>
-      
-</Box>
   );
 }
