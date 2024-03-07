@@ -24,7 +24,7 @@ export default function BasicButtons() {
           size="sm"
           color="primary">
           <FormLabel>
-            Label
+            Need help?
           </FormLabel>
           <Input
             placeholder="Placeholder"
@@ -34,10 +34,10 @@ export default function BasicButtons() {
            autoFocus
             error
             fullWidth
-            defaultValue="DefaultValue"
+            defaultValue="Type"
            variant="outlined" />
           <FormHelperText>
-           WHY!!!!!!!!
+           Too bad
           </FormHelperText>
         </FormControl>
       </Box>
