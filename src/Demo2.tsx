@@ -22,7 +22,7 @@ export default function BasicButtons() {
           id="Id"
           required
           size="sm"
-          color="secondary">
+          color="primary">
           <FormLabel>
             Need help?
           </FormLabel>
