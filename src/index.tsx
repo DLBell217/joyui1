@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom/client';
 import { StyledEngineProvider, CssVarsProvider } from '@mui/joy/styles';
 import Demo from './Demo';
 import Demo2 from './Demo2';
-import { DiscreteSliderSteps } from './Component';
+import Component from './Component';
 
 ReactDOM.createRoot(document.querySelector("#root")!).render(
   <React.StrictMode>
